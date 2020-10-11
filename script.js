@@ -13,7 +13,12 @@ var citiesDisplay = [
   "Denver",
   "Atlanta",
 ];
-for (var i = 0; i < citiesDisplay.length; i++) console.log(citiesDisplay);
+
+// FUNCTION DEFINITION
+Function();
+for (var i = 0; i < citiesDisplay.length; i++)
+  //  console.log(citiesDisplay);
+  var citySearch = $("<div>");
 
 // WHEN I search for a city
 

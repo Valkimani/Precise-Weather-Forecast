@@ -33,21 +33,34 @@
     <h1>Weather Dashboard</h1>
     <aside>
       <h3>Search for City:</h3>
-      <form class="form-inline">
-        <div class="float-left"></div>
-        <div class="float-left">
-          <input
-            type="city"
-            class="form-control"
-            id="inputCity"
-            placeholder=""
-          />
-        </div>
-        <button type="submit" class="btn btn-primary">
-          <i class="fas fa-search-location"></i>
-        </button>
-      </form>
+      <div class="container">
+        <div class="row">
+    
+    <div class="col-4"></div>
+  </div>
+</div>
+        <div class="row">
+          <div class="col-4">
+            <form class="form-inline">
+              <div class="float-left"></div>
+              <input type="text" class="form-control" id="inputCity" />
 
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-search-location"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class="col-8">
+            <div class="card w-75">
+              <div class="card-body">
+                <h5 class="card-title">Atlanta (8/15/2019)☁️</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div class="card" style="width: 18rem">
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Austin</li>
@@ -62,12 +75,8 @@
         <div class="city-footer"></div>
       </div>
     </aside>
-    <aside>
-      <div class="mainCard" style="width: 48rem">
-        <div class="float-left">Atlanta (8/15/2019)☁️</div>
-      </div>
-    </aside>
 
+    
     <script src="script.js"></script>
   </body>
 </html>

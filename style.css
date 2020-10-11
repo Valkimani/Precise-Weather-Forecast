@@ -8,6 +8,6 @@ h1 {
 aside {
   margin: 8px;
 }
-.card {
-  margin-top: 8px;
+.card w-75 {
+  float: left;
 }
