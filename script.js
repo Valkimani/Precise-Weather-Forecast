@@ -15,11 +15,12 @@ var citiesDisplay = [
 ];
 
 // FUNCTION DEFINITION
-Function();
-for (var i = 0; i < citiesDisplay.length; i++)
-  //  console.log(citiesDisplay);
-  var citySearch = $("<div>");
+var userSearch = document.querySelector("inputCity");
 
+for (var i = 0; i < citiesDisplay.length; i++) {}
+function weatherSearch(city) {}
+
+var searchCity = inputEl.val();
 // WHEN I search for a city
 
 // I am presented with current and future conditions for that city and that city is added to the search history
