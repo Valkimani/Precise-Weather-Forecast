@@ -8,3 +8,6 @@ h1 {
 aside {
   margin: 8px;
 }
+.card text-white bg-primary mb-3 {
+  text-align: center;
+}
