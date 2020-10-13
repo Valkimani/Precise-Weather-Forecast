@@ -14,6 +14,11 @@ var citiesDisplay = [
   "Denver",
   "Atlanta",
 ];
+
+$.ajax({
+  url: queryURL,
+  method: "GET",
+}).then(function (response) {});
 // / WHEN I search for a city
 // search for a city
 var userSearch = document.querySelector("inputCity");
