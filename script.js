@@ -39,7 +39,6 @@ function weatherSearch(city) {
     $("#outPut").append(pTag);
   });
 }
-
 submitSearchEl.on("click", function (event) {
   event.preventDefault();
   console.log("this is working!");
@@ -48,7 +47,6 @@ submitSearchEl.on("click", function (event) {
   // calling weathersearch and parsing a variable
   weatherSearch(searchCity);
 });
-
 // saving users input to a variable
 
 // Function definitions
